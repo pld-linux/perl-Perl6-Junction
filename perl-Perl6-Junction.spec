@@ -9,7 +9,7 @@ Summary:	Perl6::Junction - Perl6 style Junction operators in Perl5
 Summary(pl.UTF-8):	Perl6::Junction - operatory Junction w stylu Perl6 dla Perl5
 Name:		perl-Perl6-Junction
 Version:	1.40000
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -60,6 +60,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
+%dir %{perl_vendorlib}/Perl6
 %{perl_vendorlib}/Perl6/*.pm
 %{perl_vendorlib}/Perl6/Junction
 %{_mandir}/man3/*
