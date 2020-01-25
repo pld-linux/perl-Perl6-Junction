@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Perl6
 %define	pnam	Junction
 Summary:	Perl6::Junction - Perl6 style Junction operators in Perl5
